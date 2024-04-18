@@ -13,7 +13,7 @@ keywords = ["inteligencia artificial", "aprendizaje automático", "aprendizaje p
 console = Console()  # Crear un objeto Console global
 
 logging.basicConfig(
-    level="INFO",
+    level="WARNING",
     format="%(message)s",
     datefmt="[%X]",
     handlers=[RichHandler(rich_tracebacks=True, console=console)]
